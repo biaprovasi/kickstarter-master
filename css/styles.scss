@@ -20,7 +20,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
-$barbielila: #9551AD
+$barbielila: #9551AD;
+
 body{
 	background-image: url("../Pictures/pinkgradient.png");
 	background-size:500%;
