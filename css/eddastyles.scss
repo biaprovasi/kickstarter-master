@@ -1,0 +1,24 @@
+
+//CSS code for the images - Edda
+.first-image {
+  background-image: url('/pictures/kontor.png');
+  background-size: cover;
+  background-position: center;
+  height: 889px; // Adjust height as necessary
+  margin-right: 15px; // Add space on the right
+}
+
+.second-image {
+  background-image: url('/pictures/lilleskab.png');
+  background-size: cover;
+  background-position: center;
+  height: 331px;  // Adjust height as necessary
+  margin-right: 15px; // Add space on the right
+}
+
+.third-image {
+  background-image: url('/pictures/tekokken.png');
+  background-size: cover;
+  background-position: center;
+  height: 610px;  // Adjust height as necessary
+}
