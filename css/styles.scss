@@ -18,6 +18,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+
+@font-face {
+	font-family: "Noto Sans Tamil Regular";
+	src: url('../fonts/NotoSansTamil-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
 $barbielightpink: #F9CADC;
@@ -44,4 +53,19 @@ nav > a > img{
 
 i{
 	padding: $spacer !important;
+
+
+p{
+	color: $barbielila;
+	font-family: "Noto Sans Tamil SemiBold", sans-serif;
+	font-size: 1rem;
+	padding: 20px;
 }
+  
+h1{
+	color: $barbielila;
+	font-family: "Noto Sans Tamil Bold", sans-serif;
+	font-size: 2rem;
+	padding: 20px;
+}
+
