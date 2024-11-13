@@ -10,7 +10,9 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+				"barbiepink": $pink-500,
+				"barbiebg": $pink-200,
+				"barbienavpills": $pink-100
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,3 +20,26 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+body{
+	background-image: url("pinkgradient.png");
+	background-size:500%;
+}
+
+nav > a > img{
+
+}
+
+.nav-pills > li > a.active {
+	background-color: #DD468B !important;
+	color: $pink-100 !important;
+}
+
+.nav-link{
+	color: #DD468B !important;
+}
+
+i{
+	padding: $spacer !important;
+	color: $pink-100;
+}
