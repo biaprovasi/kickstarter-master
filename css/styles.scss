@@ -18,15 +18,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
-
-
-@font-face {
-	font-family: "Noto Sans Tamil Regular";
-	src: url('../fonts/NotoSansTamil-Regular.ttf') format('ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
 $barbielightpink: #F9CADC;
@@ -51,20 +42,53 @@ nav > a > img{
 	color: $barbiepink !important;
 }
 
-i{
+i {
 	padding: $spacer !important;
-
+}
 
 p{
 	color: $barbielila;
-	font-family: "Noto Sans Tamil SemiBold", sans-serif;
-	font-size: 1rem;
-	padding: 20px;
+	font-family: 'Noto Sans Tamil', sans-serif;
+	font-weight: 600;
 }
   
 h1{
 	color: $barbielila;
+
 	font-family: "Noto Sans Tamil Bold", sans-serif;
 	font-size: 2rem;
 	padding: 20px;
+	font-family: 'Noto Sans Tamil', sans-serif;
+	font-weight: bold;
+}
+
+.bg-image-logo{
+	background-image: url('../Pictures/ikeaXbarbie.png');
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+/* Font Regular */
+@font-face {
+	font-family: 'Noto Sans Tamil';
+	src: url('../fonts/NotoSansTamil-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Font SemiBold */
+@font-face {
+	font-family: 'Noto Sans Tamil';
+	src: url('../fonts/NotoSansTamil-SemiBold.ttf') format('truetype');
+	font-weight: 600; /* SemiBold*/
+	font-style: normal;
+}
+
+/* Font Bold */
+@font-face {
+	font-family: 'Noto Sans Tamil';
+	src: url('../fonts/NotoSansTamil-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
