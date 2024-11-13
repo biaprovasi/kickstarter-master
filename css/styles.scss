@@ -10,9 +10,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-				"barbiepink": $pink-500,
-				"barbiebg": $pink-200,
-				"barbienavpills": $pink-100
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -30,6 +28,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 $barbielila: #9551AD;
+$barbiepink: #DD468B;
+$barbielightpink: #F9CADC;
+$barbienavpills: #E472B3;
+
 
 body{
 	background-image: url("../Pictures/pinkgradient.png");
@@ -41,12 +43,12 @@ nav > a > img{
 }
 
 .nav-pills > li > a.active {
-	background-color: #DD468B !important;
-	color: $pink-100 !important;
+	background-color: $barbiepink !important;
+	color: $barbielightpink !important;
 }
 
 .nav-link{
-	color: $barbielila !important;
+	color: $barbiepink !important;
 }
 
 i{
