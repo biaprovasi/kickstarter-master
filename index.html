@@ -2,20 +2,52 @@
 <html lang="da">
 <head>
 	<meta charset="utf-8">
-	
-	<title>Sigende titel</title>
-	
+
+	<title>IKEA x Barbie</title>
+
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-	
+
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
+<nav id="navbar-example2" class="navbar navbar-expand-lg p-3 text-barbiepink-emphasis">
+	<a class="navbar-brand " href="#">
+		<img src="ikeabarbielogo.png" class="float-start" alt="..." width="400" height="221">
+	</a>
+	<ul class="nav nav-pills">
+		<li class="nav-item">
+			<a class="nav-link" href="#scrollspyHeading1">Barbies IKEA-drømmehus</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#scrollspyHeading2">Gallery</a>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#scrollspyHeading3">Kampagne video</a></li>
+				<li><a class="dropdown-item" href="#scrollspyHeading4">SoMe</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+	<h4 id="scrollspyHeading1">Barbies IKEA-drømmehus</h4>
+	<p class="p-2 g-col-6 text-color:#65023b">Oplev dette fortryllende samarbejde med en livlig kollektion af boligindretning og tilbehør, der blander legende design med funktionelle møbler.</p>
+	<h4 id="scrollspyHeading2">Gallery</h4>
+	<div class="hstack gap-12">
+		<img src="sofa.jpeg" class="p-2 g-col-6 float-start" alt="...">
+		<img src="sofa.jpeg" class="p-2 g-col-6 float-end" alt="...">
+	</div>
+	<h4 id="scrollspyHeading3">Kampagne video</h4>
+	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE?si=jyMAdmkEv-rxCGdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen muted autoplay></iframe></p>
+	<h4 id="scrollspyHeading4"></h4>
+	<p class="d-inline float-start">Find IKEA x Barbie here</p>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
