@@ -22,7 +22,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 body{
-	background-image: url("pinkgradient.png");
+	background-image: url("pictures/pinkgradient.png");
 	background-size:500%;
 }
 
@@ -36,7 +36,7 @@ nav > a > img{
 }
 
 .nav-link{
-	color: #DD468B !important;
+	color: #9551AD !important;
 }
 
 i{
