@@ -10,7 +10,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -47,3 +47,77 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 i{
 	color: rgb(249, 202, 220);
 }
+
+$barbielila: #9551AD;
+$barbiepink: #DD468B;
+$barbielightpink: #F9CADC;
+$barbienavpills: #E472B3;
+
+
+body{
+	background-image: url("../Pictures/pinkgradient.png");
+	background-size:500%;
+}
+
+nav > a > img{
+
+}
+
+.nav-pills > li > a.active {
+	background-color: $barbiepink !important;
+	color: $barbielightpink !important;
+}
+
+.nav-link{
+	color: $barbiepink !important;
+}
+
+i {
+	padding: $spacer !important;
+}
+
+p{
+	color: $barbielila;
+	font-family: 'Noto Sans Tamil', sans-serif;
+	font-weight: 600;
+	margin: 0;
+}
+  
+h1{
+	color: $barbielila;
+	font-family: 'Noto Sans Tamil', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.bg-image-logo{
+	background-image: url('../Pictures/ikeaXbarbie.png');
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+/* Font Regular */
+@font-face {
+	font-family: 'Noto Sans Tamil';
+	src: url('../fonts/NotoSansTamil-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Font SemiBold */
+@font-face {
+	font-family: 'Noto Sans Tamil';
+	src: url('../fonts/NotoSansTamil-SemiBold.ttf') format('truetype');
+	font-weight: 600; /* SemiBold*/
+	font-style: normal;
+}
+
+/* Font Bold */
+@font-face {
+	font-family: 'Noto Sans Tamil';
+	src: url('../fonts/NotoSansTamil-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
