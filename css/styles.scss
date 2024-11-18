@@ -18,6 +18,36 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.twoColumns {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.contact{
+	color: #ffffff;
+	text-align: left;
+	font-size: 15px;
+	border-radius: 10px;
+	background: rgb(114, 108, 89);
+	padding: 8px;
+	vertical-align: right;
+	height: 18px;
+	vertical-align: center;
+	box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
+}
+.right {
+	max-width: 100%;
+	margin-left: 10px;
+}
+.SoMe{
+	vertical-align: right;
+	justify-content: space-evenly;
+}
+i{
+	color: rgb(249, 202, 220);
+}
+
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
 $barbielightpink: #F9CADC;
@@ -90,3 +120,4 @@ h1{
 	font-weight: bold;
 	font-style: normal;
 }
+
