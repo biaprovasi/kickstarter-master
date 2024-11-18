@@ -19,6 +19,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+
+
+@font-face {
+	font-family: "Noto Sans Tamil Regular";
+	src: url('../fonts/NotoSansTamil-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+
 .twoColumns {
 	display: flex;
 	flex-direction: row;
@@ -47,7 +55,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 i{
 	color: rgb(249, 202, 220);
 }
-
+{
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
 $barbielightpink: #F9CADC;
@@ -72,19 +80,33 @@ nav > a > img{
 	color: $barbiepink !important;
 }
 
-i {
+i{
 	padding: $spacer !important;
 }
 
+
 p{
 	color: $barbielila;
+
+	font-family: "Noto Sans Tamil SemiBold", sans-serif;
+	font-size: 1rem;
+	padding: 20px;
+
 	font-family: 'Noto Sans Tamil', sans-serif;
 	font-weight: 600;
 	margin: 0;
+
 }
   
 h1{
 	color: $barbielila;
+
+	font-family: "Noto Sans Tamil Bold", sans-serif;
+	font-size: 2rem;
+	padding: 20px;
+}
+
+
 	font-family: 'Noto Sans Tamil', sans-serif;
 	font-weight: bold;
 	margin-bottom: 0;
@@ -120,4 +142,5 @@ h1{
 	font-weight: bold;
 	font-style: normal;
 }
+
 
