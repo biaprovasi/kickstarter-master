@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>IKEA x Barbie</title>
   <meta name="robots" content="All">
   <meta name="author" content="Udgiver">
   <meta name="copyright" content="Information om copyright">
@@ -14,26 +14,35 @@
 </head>
 <body>
 
-<div class="row">
-  <div class="col-md-8">
-    <img src="Pictures/ikeaXbarbie.png" alt="IKEA X Barbie Logo" style="width: 50%"/>
-  </div>
-  <div class="col-md-4">
+<div class="row row justify-content-around">
+  <div class="col-sm-12 col-md-8 bg-image-logo p-5 h-100"></div>
+  <div class="col-sm-12 col-md-4 p-3 fs-6">
     <p>Dette er et klasseprojekt uden sammenhæng med mærkerne.</p>
   </div>
-  <div class="col-12">
+  <div class="col-12 p-3 fs-1">
     <h1>Barbies IKEA-drømmehus</h1>
   </div>
-  <div class="col-12">
+  <div class="col-12 p-3 fs-4">
     <p>Oplev dette fortryllende samarbejde med en livlig kollektion af boligindretning og tilbehør, der blander legende design med funktionelle møbler.</p>
   </div>
 </div>
 
-<div class="hstack gap-12">
-  <img src="..." class="p-2 g-col-6 float-start" alt="...">
-  <img src=".." class="p-2 g-col-6 float-end" alt="...">
-  <img src=".." class="p-2 g-col-6 float-end" alt="...">
-  <img src=".." class="p-2 g-col-6 float-end" alt="...">
+<!--Edda-->
+<!-- First image: 5 columns on medium+ screens, full width on small screens -->
+<div id="first-image" class="col-12 col-md-5 p-2">
+  <img src="/pictures/sofa.jpeg" class="img-fluid" alt="First image">
+</div>
+
+<!-- Second image: 3 columns on medium+ screens, half width on small screens -->
+<div class="col-6 col-md-3 p-2">
+  <img src="/pictures/sofa.jpeg" class="img-fluid" alt="Second image">
+</div>
+
+<!-- Third image: 4 columns on medium+ screens, half width on small screens -->
+<div class="col-6 col-md-4 p-2">
+  <img src="/pictures/sofa.jpeg" class="img-fluid" alt="Third image">
+</div>
+</div>
 </div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
