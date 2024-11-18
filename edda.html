@@ -1,57 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+
+    <title>IKEA x Barbie</title>
+
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/eddastyles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-<!---Edda test 2 Images as background images through CSS--->
 
-<div class="container">
-    <div class="grid gap-3">
-        <div class="row row justify-content-around">
-        <!-- First image: 5 columns on medium+ screens, full width on small screens -->
-         <div class="col-12 col-md-5 first-image p-2"></div>
+<nav id="navbar-example2" class="navbar navbar-expand-lg p-3 text-barbiepink-emphasis">
+    <a class="navbar-brand " href="#">
+    </a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Barbies IKEA-drømmehus</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Gallery</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#scrollspyHeading3">Kampagne video</a></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading4">SoMe</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+    <h4 id="scrollspyHeading1">Barbies IKEA-drømmehus</h4>
+    <p class="p-2 g-col-6 text-color:#65023b">Oplev dette fortryllende samarbejde med en livlig kollektion af boligindretning og tilbehør, der blander legende design med funktionelle møbler.</p>
+    <h4 id="scrollspyHeading2">Gallery</h4>
 
-         <!-- Second image: 3 columns on medium+ screens, half width on small screens -->
-         <div class="col-6 col-md-3 second-image p-2"></div>
-
-         <!-- Third image: 4 columns on medium+ screens, half width on small screens -->
-         <div class="col-6 col-md-4 third-image p-2"></div>
+    <div class="container">
+        <div class="row g-10">
+            <!-- First part: Spans 5 columns on medium and larger -->
+            <div class="col-12 col-md-5">
+                <img src="/pictures/kontor.png" class="img-fluid w-100" alt="Office Image">
+            </div>
+            <!-- Second part: 4 boxes -->
+            <div class="col-12 col-md-7">
+                <div class="row g-10">
+                    <div class="col-md-6">
+                        <div class="row g-10">
+                            <div class="col-12 tile-1-1">
+                                <img src="/pictures/lilleskab.png" class="img-fluid w-100" alt="Small Cabinet Image">
+                            </div>
+                        </div>
+                        <div class="row g-10">
+                            <div class="col-12 tile-1-1 text-overlay">
+                                <h2>Omfavn din IKEA-bolig gennem Barbies øjne</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-10">
+                            <div class="col-12 tile-2-1">
+                                <img src="/pictures/tekokken.png" class="img-fluid w-100" alt="Small Kitchen Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-10">
+                    <div class="col-12 tile-2-1">
+                        <img src="/pictures/vask.png" class="img-fluid w-100" alt="Decor Image">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-</div>
 
-<br>
-<br>
-<br>
-<br>
-
-<!--Edda Old Try-->
-
-<div class="row g-1 justify-content-around">>
-    <!-- First image: 5 columns on medium+ screens, full width on small screens -->
-    <div class="col-12 col-md-5 p-2">
-        <img src="/pictures/kontor.png" class="img-fluid w-100" alt="First image">
-    </div>
-
-    <!-- Second image: 3 columns on medium+ screens, half width on small screens -->
-    <div class="col-6 col-md-3 p-2">
-        <img src="/pictures/lilleskab.png" class="img-fluid" alt="Second image">
-    </div>
-
-    <!-- Third image: 4 columns on medium+ screens, half width on small screens -->
-    <div class="col-6 col-md-4 p-2">
-        <img src="/pictures/tekokken.png" class="img-fluid" alt="Third image">
-
-    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </div>
 </body>
 </html>

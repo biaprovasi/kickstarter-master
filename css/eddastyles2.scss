@@ -42,24 +42,6 @@ nav > a > img{
 
 }
 
-.tile-1-2 {
-  aspect-ratio: 1 / 2;
-  object-fit: cover;  
-  width: 100%;        
-}
-
-.tile-1-1 {
-  aspect-ratio: 1 / 1; 
-  object-fit: cover;   
-  width: 100%;         
-}
-
-.tile-2-1 {
-  aspect-ratio: 2 / 1;
-  object-fit: cover;  
-  width: 100%;        
-}
-
 .nav-pills > li > a.active {
   background-color: $barbiepink !important;
   color: $barbielightpink !important;
@@ -71,36 +53,43 @@ nav > a > img{
 
 i{
   padding: $spacer !important;
-}
 
 
-p{
-  color: $barbielila;
-  font-family: "Noto Sans Tamil SemiBold", sans-serif;
-  font-size: 1rem;
-  padding: 20px;
-}
-
-h1{
-  color: $barbielila;
-  font-family: "Noto Sans Tamil Bold", sans-serif;
-  font-size: 2rem;
-  padding: 20px;
-}
-
-//Styling for flexbox with text in gallery:
-
-.text-overlay {
-  background-color: $barbiepink;
-  color: #fff;
-  text-align: center;
-  align-content: center;
-}
-
-h2 {
-  font-size: 1.5rem;
-
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
+  p{
+    color: $barbielila;
+    font-family: "Noto Sans Tamil SemiBold", sans-serif;
+    font-size: 1rem;
+    padding: 20px;
   }
+
+  h1{
+    color: $barbielila;
+    font-family: "Noto Sans Tamil Bold", sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+  }
+}
+
+  //CSS code for the images - Edda
+.first-image {
+  background-image: url('/pictures/kontor.png');
+  background-size: cover;
+  background-position: center;
+  height: 889px; // Adjust height as necessary
+  margin-right: 15px; // Add space on the right
+}
+
+.second-image {
+  background-image: url('/pictures/lilleskab.png');
+  background-size: cover;
+  background-position: center;
+  height: 331px;  // Adjust height as necessary
+  margin-right: 15px; // Add space on the right
+}
+
+.third-image {
+  background-image: url('/pictures/tekokken.png');
+  background-size: cover;
+  background-position: center;
+  height: 610px; // Adjust height as necessary
 }
