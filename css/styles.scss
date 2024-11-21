@@ -61,6 +61,7 @@ i{
 	color: rgb(249, 202, 220);
 }
 
+
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
 $barbielightpink: #F9CADC;
@@ -72,6 +73,9 @@ body{
 	background-size:500%;
 }
 
+nav > a > img{
+
+}
 
 .nav-pills > li > a.active {
 	background-color: $barbiepink !important;
@@ -105,6 +109,12 @@ h1{
 	font-family: "Noto Sans Tamil Bold", sans-serif;
 	font-size: 2rem;
 	padding: 20px;
+}
+
+
+	font-family: 'Noto Sans Tamil', sans-serif;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .bg-image-logo{
