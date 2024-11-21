@@ -26,12 +26,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	src: url('../fonts/NotoSansTamil-Regular.ttf') format('ttf');
 	font-weight: normal;
 	font-style: normal;
+}
 
 .twoColumns {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
+
 .contact{
 	color: #ffffff;
 	text-align: left;
@@ -44,18 +46,21 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	vertical-align: center;
 	box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
 }
+
 .right {
 	max-width: 100%;
 	margin-left: 10px;
 }
+
 .SoMe{
 	vertical-align: right;
 	justify-content: space-evenly;
 }
+
 i{
 	color: rgb(249, 202, 220);
 }
-{
+
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
 $barbielightpink: #F9CADC;
@@ -67,9 +72,6 @@ body{
 	background-size:500%;
 }
 
-nav > a > img{
-
-}
 
 .nav-pills > li > a.active {
 	background-color: $barbiepink !important;
@@ -95,7 +97,6 @@ p{
 	font-family: 'Noto Sans Tamil', sans-serif;
 	font-weight: 600;
 	margin: 0;
-
 }
   
 h1{
@@ -104,12 +105,6 @@ h1{
 	font-family: "Noto Sans Tamil Bold", sans-serif;
 	font-size: 2rem;
 	padding: 20px;
-}
-
-
-	font-family: 'Noto Sans Tamil', sans-serif;
-	font-weight: bold;
-	margin-bottom: 0;
 }
 
 .bg-image-logo{
