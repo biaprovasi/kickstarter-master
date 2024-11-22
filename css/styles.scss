@@ -28,6 +28,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-style: normal;
 }
 
+.first-image{
+
+}
+
 .twoColumns {
 	display: flex;
 	flex-direction: row;
@@ -139,3 +143,4 @@ h1{
 .SoMe > i > fa-brands{
 	color: #DD468B;
 }
+
