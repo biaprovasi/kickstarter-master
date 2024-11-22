@@ -19,6 +19,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+
 //Edda & Freisa
 
 
@@ -40,17 +41,16 @@ h1{
 	color: $barbielila;
 	font-family: "Noto Sans Tamil", sans-serif;
 	font-size: 2rem;
-
 	padding: 2px;
 	font-weight: bolder;
+	margin-top: 4%;
 }
 
-.tekst > p{
+p{
 	color: $barbielila;
 	font-family: 'Noto Sans Tamil', sans-serif;
-	font-weight: 600;
 	padding: 2px;
-
+	margin-top: 0%;
 }
 
 .bg-image-logo{
