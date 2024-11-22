@@ -54,7 +54,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 i{
 	color: rgb(249, 202, 220);
-}
+
 {
 $barbielila: #9551AD;
 $barbiepink: #DD468B;
@@ -142,5 +142,6 @@ h1{
 	font-weight: bold;
 	font-style: normal;
 }
-
+}
+}
 
