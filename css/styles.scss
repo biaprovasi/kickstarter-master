@@ -94,26 +94,30 @@ i{
 }
 
 
-p{
-	color: $barbielila;
-	font-family: 'Noto Sans Tamil', sans-serif;
-	font-weight: 600;
-	margin: 0;
-}
-  
+
 h1{
 	color: $barbielila;
 	font-family: "Noto Sans Tamil Bold", sans-serif;
 	font-size: 2rem;
-	padding: 20px;
+	padding: 2px;
+	font-weight: bolder;
+}
+
+.tekst > p{
+	color: $barbielila;
+	font-family: 'Noto Sans Tamil', sans-serif;
+	font-weight: 600;
+	padding: 2px;
 }
 
 
 .bg-image-logo{
-	background-image: url('../Pictures/ikeaXbarbie.png');
-	background-size: contain;
+	background-image: url('../Pictures/barbiegirl.png');
+	background-size: 60%;
 	background-position: left;
 	background-repeat: no-repeat;
+
+
 }
 
 /* Font Regular */
